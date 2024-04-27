@@ -1,0 +1,126 @@
+
+/*Unit 18 CSS Styling*/
+/*Design is based on Challenge and not actual Annotations; will be implementing changes later*/
+/*Code Nav Bar CSS*/
+.nav {
+  display: flex;
+  background-color: rgb(199, 194, 194);
+  padding: 20px;
+}
+
+.center {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+.center {
+  width: 50%;
+}
+
+.center a {
+  color: white;
+  padding: 10px;
+  font-size: 18px;
+  text-decoration: none;
+  font-family:arial;
+}
+/*Code Hero Image CSS*/
+.heroImg {
+    height: 200px;
+    padding: 25px;
+    align-content: right;
+}
+
+.content {
+    width: 500px;
+    margin: 0 auto;
+}
+
+img {
+    height: 250px;
+    width: 250px;
+}
+.view-work {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.viewWork {
+background-color: rgb(246, 245, 243);
+height: 50px;
+width:150px;
+}
+
+/*FLEX CONTAINERS AND GRID -Work, Education, Contact, Passion, Skills*/
+#sectionGrid {
+    margin: 0px 5%;
+    display: grid;
+    grid-template-rows: 150px 150px 150px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+    "EDUCATION WORK EXPERIENCE CONTACTS PASSIONS SKILLS"
+    ;
+  }
+.flexItem {
+    background-color: rgba(248, 238, 217, 0.768);
+    margin: 10px;
+    padding: 10px;
+    width: 250px;
+    height: 290px;
+  }
+  .flexContainer {
+    display: flex;
+    height: 300px;
+    margin: 5px;
+    padding: 10px;
+  }
+  .perfectlyCentered {
+    justify-content: center;
+    align-items: center;
+  }
+  .alignItems {
+    align-items: center;
+  }
+
+  #row {
+    flex-direction: row;
+  }
+/*My Work Container*/
+
+.workflex {
+    display: flex;
+    width: 50%;
+    padding: 20px;
+    margin: 0 auto;
+    flex-direction: column;
+}
+
+.projectbutton {
+background-color: rgb(246, 245, 243);
+height: 30px;
+width: 100px; 
+}
+
+/*FLEX CONTAINERS -Passion and Skills*/
+
+/*Code footer CSS*/
+
+footer {
+    background-color: #373738;
+    color: antiquewhite;
+    padding: 1%;
+    width: 100%;
+    height: 80px;
+}
+.portfolio {
+    background-color: rgb(246, 245, 243);
+    align-items: right;
+    height: 40px;
+    width: 150px;
+}
+/*Media Query Rule; make updated rules*/
+@media only screen and (max-width: 600){
+
+}
